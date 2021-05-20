@@ -79,7 +79,7 @@ class _MainScreenState extends State<MainScreen> {
     SnackBar dateSnackBar= SnackBar(duration: Duration(milliseconds: 455),content: Text("📅 Date : ${date.day} / ${date.month} / ${date.year}"));
     ScaffoldMessenger.of(context).showSnackBar(dateSnackBar);
 
-    SnackBar timeSnackBar= SnackBar(duration: Duration(milliseconds: 455),content: Text("🕒 Time : ${time.hour} : ${time.hour}"));
+    SnackBar timeSnackBar= SnackBar(duration: Duration(milliseconds: 455),content: Text("🕒 Time : ${time.hour} : ${time.minute}"));
     ScaffoldMessenger.of(context).showSnackBar(timeSnackBar);
 
 
